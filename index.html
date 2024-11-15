@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUESS-NUMBER-GAME</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main">
+
+    <div class="gameboard">
+
+        <h5 class="cean">Guess the Number Game</h5>
+
+
+        <h4>Choose the level</h4>
+        <select id="levi">
+
+            <option value="easy">Easy 1-to-10</option>
+            <option value="meduim">Meduim 1-to-50</option>
+            <option value="hard">Hard 1-to-100</option>
+
+        </select>
+
+
+    <input type="number" id="userguess" placeholder="Guess the number">
+    <button class="style-btn" onclick="enterr()">Enter</button>
+    <button class="style-btn" onclick="resett()">Restart game</button>
+  
+    <p id="showpara" class="mar"></p>
+    <h6 id="showchance" class="cean"></h6>
+
+    </div>
+
+    <!-- main-closing -->
+ </div>   
+
+<div class="footer">&copy; Created by Fatima Abbasi all Rights reserved</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

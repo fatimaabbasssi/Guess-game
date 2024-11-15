@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    background-image: url(https://wallpapers.com/images/hd/colorful-gaming-r726w6zjysu1gmms.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    color: beige;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 1px 1px rgb(91, 232, 236);
+}
+
+.gameboard{
+    min-height: 300px;
+    width: 320px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/023/852/non_2x/abstract-colorful-geometric-shape-background-modern-color-background-for-your-website-vector.jpg);
+   border-radius: 10px;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+}
+
+#levi{
+    background-color: rgb(22, 0, 34);
+    color: white;
+    margin-bottom: 3em;
+    margin-top: 1em;
+    border: none;
+    outline: none;
+    box-shadow: 0px 1px 1px rgb(91, 232, 236);
+}
+
+#userguess{
+    width: 230px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+  
+}
+
+.style-btn{
+    margin-top: 1em;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(0, 27, 27);
+    color: rgb(255, 179, 194);
+    border-radius: 7px;
+}
+
+.cean{
+color: rgb(197, 254, 254);
+text-shadow: 2px 1px 3px rgb(81, 212, 248);
+margin-bottom: 1em;
+}
+
+.mar{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 0.8em;
+}
+
+.footer{
+    padding: 0.5em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.267);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 2em;
+}
+
+
+
+@media(max-width:570px){
+    .main{
+        font-size: 1.4em;
+    }
+
+    .gameboard{
+        width: 290px;
+    }
+
+    .footer{
+        background-color: rgba(0, 0, 0, 0.626);
+    }
+}
+
+
+@media(max-width:320px){
+   .gameboard{
+    width: 235px;
+   }
+}
